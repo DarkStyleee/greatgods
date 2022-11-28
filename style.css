@@ -383,14 +383,14 @@ li {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 100vh;
+  height: 100%;
 }
 
-@media screen and (max-width: 750px) {
+/* @media screen and (max-width: 750px) {
   .header-section {
     height: 100%;
   }
-}
+} */
 
 .navigation {
   display: -webkit-box;
@@ -432,7 +432,7 @@ li {
   max-width: 50%;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .header-section, .about-section, .gameplay-section, .social-section {
     padding-bottom: 25px;
   }
