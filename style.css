@@ -251,7 +251,7 @@ li {
 }
 
 .card__button a {
-  color: var(--color-button);
+  color: var(--color-button) !important;
 }
 
 @media (max-width: 500px) {
