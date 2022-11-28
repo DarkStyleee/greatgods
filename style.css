@@ -250,6 +250,10 @@ li {
   grid-gap: 1em;
 }
 
+.card__button a {
+  color: var(--color-button);
+}
+
 @media (max-width: 500px) {
   .card-list {
     display: -webkit-box;
@@ -370,6 +374,7 @@ li {
 }
 /* Divider */
 
+
 .header-section {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -425,6 +430,25 @@ li {
   text-align: start;
   margin-top: 100px;
   max-width: 50%;
+}
+
+@media (max-width: 700px) {
+  .header-section, .about-section, .gameplay-section, .social-section {
+    padding-bottom: 25px;
+  }
+  
+  .register-section {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+
+  .divider {
+    margin-bottom: 25px;
+  }
+
+  .header-section__card {
+    max-width: 75%;
+  }
 }
 
 .beta-register-form {
